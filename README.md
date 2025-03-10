@@ -1,5 +1,5 @@
 # Prerequisites
-- Python 3.13.1
+-  Python 3.9 or later
 
 
 # CLI Usage
