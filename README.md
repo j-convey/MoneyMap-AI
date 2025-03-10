@@ -28,8 +28,21 @@ Use the predict command to classify transactions using a pre-trained model.
 Example:
 ```python main.py predict /path/to/models/pt_cat_modelV1```
 
+## 📈 Performance
+Here are my results after using main.csv dataset (62,793 lines of data) for 2 epochs. This took around 10 hours to complete based on my hardware. This is without using data augmentation to double the size due to time restaints.
+![cat_modelV1](https://github.com/j-convey/BankTextCategorizer/assets/85854964/f457198d-4de0-4ef2-b7eb-3f30d6c14d58)
 
+#### Flexibility in Categorization
+However, we understand that every user might have specific needs, and the default categories might not fit everyone. You have the flexibility to modify, add, or remove categories and subcategories as per your requirements.
 
+#### How to Customize:
+Update the Dictionary: Modify the categories dictionary in the code with your desired categories and subcategories. The key should be the main category, and the values should be a list containing the subcategories.
+
+Update Training Data: It's crucial that once you modify the categories and subcategories, you also need to change the training data. Ensure that the data has labels corresponding to your new categories and subcategories.
+
+Re-Train the Model: With the updated categories and training data, re-run the main() function to train the model on the new data.
+
+By following these steps, you can easily customize the categorization to suit your personal or business needs.
 
 ## Dependencies
 The project relies on the following Python libraries:
