@@ -46,8 +46,9 @@ Re-Train the Model: With the updated categories and training data, re-run the ma
 By following these steps, you can easily customize the categorization to suit your personal or business needs.
 
 ## Installation
-[![Python][badge-python]][Python]
+[![Python](https://img.shields.io/badge/python->=3.9-blue?style=flat-square)](https://www.python.org/downloads/)
 [badge-python]: https://img.shields.io/badge/python->=3.9-blue?style=flat-square
+[Python]: https://www.python.org/downloads/
 
 Read the [Installation Guide](https://github.com/j-convey/MoneyMap-AI/wiki/Installation-Guide#installing-dependencies) for instructions on how to install dependencies.
 
