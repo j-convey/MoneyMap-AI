@@ -70,3 +70,15 @@ Install these via pip install -r requirements.txt after creating the file as des
 
 To install cuda follow these instructions
 [Download NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit)
+
+
+## 🔮 Future Improvements
+- Web interface and mobile client
+- Refining the data preprocessing pipeline.
+- Fine-tuning the BERT model for better performance.
+
+
+## 🤝 Contribute
+1. Consider contributing to the project.
+2. Add a Github Star to the project.
+3. Post about the project on X.
