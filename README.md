@@ -9,16 +9,9 @@ My primary motivation for creating this project was to provide an alternative to
 1. Self-hosting: By allowing users to host the solution on their infrastructure, this project offers complete control over data, operations, and customization. Self-hosting eliminates the dependency on third-party services which might shut down, change their terms, or even introduce pricing that might not be favorable to all.
 2. Privacy-friendly: In an era where every click, every view, and even every scroll is tracked, privacy has become a scarce commodity. This project is designed with privacy at its core. No unnecessary data collection, no sneaky trackers, and no third-party analytics. Your data stays yours, and that's how it should be.
 
-
-## Prerequisites
--  Python 3.9 or later
-- Required dependencies (see Installation)
-- NVIDIA GPU with CUDA support (optional, for faster training; CPU is supported)
-
 ## CLI Usage
 ## General Syntax
 Run the main.py script with one of two commands: train or predict. Each command requires a path argument specifying the data file (for training) or model file (for prediction).
-
 
 ```python main.py <command> <path>```
 - <command>: Either train or predict.
@@ -52,24 +45,11 @@ Re-Train the Model: With the updated categories and training data, re-run the ma
 
 By following these steps, you can easily customize the categorization to suit your personal or business needs.
 
-## Dependencies
-The project relies on the following Python libraries:
-- torch: PyTorch framework for deep learning.
-- torch.nn and torch.optim: Neural network and optimization modules from PyTorch.
-- matplotlib: For plotting training history.
-- transformers: Hugging Face library for BERT tokenizer and model.
-- sklearn.preprocessing: For label encoding and one-hot encoding.
-- re: Regular expressions for text preprocessing.
-- pandas: For handling CSV data.
-- random and numpy: For data manipulation and random sampling.
-- nltk.corpus: For stopwords (requires downloading NLTK data).
-- sklearn.model_selection: For train-test splitting.
-- torch.utils.data: For creating data loaders.
+## Installation
+[![Python][badge-python]][Python]
+[badge-python]: https://img.shields.io/badge/python->=3.9-blue?style=flat-square
 
-Install these via pip install -r requirements.txt after creating the file as described in Installation.
-
-To install cuda follow these instructions
-[Download NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit)
+Read the [Installation Guide](https://github.com/j-convey/MoneyMap-AI/wiki/Installation-Guide#installing-dependencies) for instructions on how to install dependencies.
 
 
 ## 🔮 Future Improvements
