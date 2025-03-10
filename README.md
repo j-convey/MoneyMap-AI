@@ -2,6 +2,14 @@
 
 **MoneyMap-AI** is an AI-powered tool that categorizes bank transactions into categories and subcategories using a BERT-based model. It helps users organize financial data efficiently through training and prediction workflows, accessible via a command-line interface (CLI).
 
+
+## 💡 Motivation
+My primary motivation for creating this project was to provide an alternative to existing solutions by emphasizing two critical values:
+
+1. Self-hosting: By allowing users to host the solution on their infrastructure, this project offers complete control over data, operations, and customization. Self-hosting eliminates the dependency on third-party services which might shut down, change their terms, or even introduce pricing that might not be favorable to all.
+2. Privacy-friendly: In an era where every click, every view, and even every scroll is tracked, privacy has become a scarce commodity. This project is designed with privacy at its core. No unnecessary data collection, no sneaky trackers, and no third-party analytics. Your data stays yours, and that's how it should be.
+
+
 ## Prerequisites
 -  Python 3.9 or later
 - Required dependencies (see Installation)
