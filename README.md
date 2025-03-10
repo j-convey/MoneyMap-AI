@@ -10,7 +10,7 @@ My primary motivation for creating this project was to provide an alternative to
 2. Privacy-friendly: In an era where every click, every view, and even every scroll is tracked, privacy has become a scarce commodity. This project is designed with privacy at its core. No unnecessary data collection, no sneaky trackers, and no third-party analytics. Your data stays yours, and that's how it should be.
 
 ## CLI Usage
-## General Syntax
+### General Syntax
 Run the main.py script with one of two commands: train or predict. Each command requires a path argument specifying the data file (for training) or model file (for prediction).
 
 ```python main.py <command> <path>```
