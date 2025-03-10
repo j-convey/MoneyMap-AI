@@ -48,9 +48,6 @@ By following these steps, you can easily customize the categorization to suit yo
 ## Installation
 [![Python](https://img.shields.io/badge/python->=3.9-blue?style=flat-square)](https://www.python.org/downloads/)
 
-[badge-python]: https://img.shields.io/badge/python->=3.9-blue?style=flat-square
-[Python]: https://www.python.org/downloads/
-
 Read the [Installation Guide](https://github.com/j-convey/MoneyMap-AI/wiki/Installation-Guide#installing-dependencies) for instructions on how to install dependencies.
 
 
@@ -64,3 +61,7 @@ Read the [Installation Guide](https://github.com/j-convey/MoneyMap-AI/wiki/Insta
 1. Consider contributing to the project.
 2. Add a Github Star to the project.
 3. Post about the project on X.
+
+
+[badge-python]: https://img.shields.io/badge/python->=3.9-blue?style=flat-square
+[Python]: https://www.python.org/downloads/
