@@ -47,6 +47,7 @@ By following these steps, you can easily customize the categorization to suit yo
 
 ## Installation
 [![Python](https://img.shields.io/badge/python->=3.9-blue?style=flat-square)](https://www.python.org/downloads/)
+
 [badge-python]: https://img.shields.io/badge/python->=3.9-blue?style=flat-square
 [Python]: https://www.python.org/downloads/
 
