@@ -93,32 +93,3 @@ class TrainModel:
     def save_model(self, save_path):
         self.model.to('cpu')
         torch.save(self.model.state_dict(), save_path)
-
-def main():
-
-    learning_rate = 1e-5
-    epochs = 2
-    batch_size = 64
-
-    data_obj = DataPreprocessor('data/main.csv')
-    num_categories = data_obj.num_categories
-    num_subcategories = data_obj.num_subcategories
-    print(f"Number of categories: {num_categories}")
-    print(f"Number of subcategories: {num_subcategories}")
-
-    cat_train_dataloader, cat_val_dataloader, sub_train_dataloader, sub_val_dataloader = data_obj.prepare_for_training()
-
-
-    # Model initialization
-    model = BertModel(num_categories, num_subcategories)
-
-    # Train and save models
-    # category_model = Trainer(cat_model, 'category', cat_train_dataloader, cat_val_dataloader, epochs, learning_rate)
-    # category_model.plot_training_history()
-    
-    sub_category_model = TrainModel(model, 'subcategory', sub_train_dataloader, sub_val_dataloader, epochs, learning_rate)
-    history = sub_category_model.train()
-    plot_training_history(history)
-
-if __name__ == '__main__':
-    main()
